@@ -1,9 +1,9 @@
 # Yearbook
 
-This project was generated using Angular CLI version 21.2.2.
-
 > You can visit this project on
 > https://ifam-yearkbook.web.app/
+
+This project was generated using Angular CLI version 21.2.2.
 
 ## Development server
 
