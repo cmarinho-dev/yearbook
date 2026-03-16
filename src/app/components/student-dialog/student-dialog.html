@@ -1,0 +1,12 @@
+<hlm-dialog [state]="_dialogState()" (stateChanged)="_dialogState.set($event)" [autoFocus]="'false'">
+  <hlm-dialog-content class="sm:max-w-150" *hlmDialogPortal="let ctx">
+    <hlm-dialog-header>
+      <h3 hlmDialogTitle>{{ selectedStudent?.name }}</h3>
+      <p hlmDialogDescription>{{ selectedStudent?.bio }}</p>
+    </hlm-dialog-header>
+    <!-- Carousel goes here -->
+    <hlm-dialog-footer>
+      <button hlmBtn variant="outline" hlmDialogClose>Fechar</button>
+    </hlm-dialog-footer>
+  </hlm-dialog-content>
+</hlm-dialog>

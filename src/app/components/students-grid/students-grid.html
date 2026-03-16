@@ -1,0 +1,9 @@
+<div class="flex items-center justify-center gap-3 mx-2 md:gap-4 md:mx-4 flex-wrap">
+    @for (student of students; track student) {
+        <app-students-grid-item (click)="openStudentDialog(student)"
+            [student]="student"
+            [_dialogState]="_dialogState"
+        ></app-students-grid-item>
+    }
+</div>
+<app-student-dialog [selectedStudent]="selectedStudent" [_dialogState]="_dialogState"></app-student-dialog>

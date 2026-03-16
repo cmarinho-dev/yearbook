@@ -1,0 +1,11 @@
+<router-outlet />
+<app-sidebar>
+  <app-header header />
+  <main hlmSidebarInset>
+    <ng-scrollbar hlm class="px-2 py-6 md:px-12 md:py-24">
+      <app-class-presentation></app-class-presentation>
+      <hlm-separator class="my-12"></hlm-separator>
+      <app-students-grid></app-students-grid>
+    </ng-scrollbar>
+  </main>
+</app-sidebar>
