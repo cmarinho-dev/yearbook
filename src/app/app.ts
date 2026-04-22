@@ -7,10 +7,11 @@ import { StudentsGrid } from "./components/students-grid/students-grid";
 import { ClassPresentation } from "./components/class-presentation/class-presentation";
 import { HlmSeparator } from "@spartan-ng/helm/separator";
 import { HlmScrollAreaImports } from "@spartan-ng/helm/scroll-area";
+import { HlmH2 } from "@spartan-ng/helm/typography";
 
 @Component({
 	selector: 'app-root',
-	imports: [RouterOutlet, HlmSidebarImports, HlmScrollAreaImports, AppSidebar, Header, StudentsGrid, ClassPresentation, HlmSeparator],
+	imports: [RouterOutlet, HlmSidebarImports, HlmScrollAreaImports, AppSidebar, Header, StudentsGrid, ClassPresentation, HlmSeparator, HlmH2],
 	encapsulation: ViewEncapsulation.None,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	host: {
